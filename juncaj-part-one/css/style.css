@@ -1,0 +1,127 @@
+
+body {
+    width:100%;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li{
+      padding: 10px;
+
+  }
+
+  a{
+      font-family:'Roboto', sans-serif ;
+      text-decoration: none;
+      color: #000;
+  }
+
+  a:hover{
+      color: #ff5c0f;
+  }
+ 
+  a.button{
+      background-color: #20a8b4;
+      color: #fff;
+      border-radius: 10px;
+      text-align: center;
+      padding: 12px;
+  }
+
+  h2{
+      margin-top: 100px;
+  }
+
+  
+
+  .header{
+      background-color: #F2F2F2;
+      padding: 12px;
+  }
+
+  a.button:hover{
+      background-color: #ff5c0f;
+  }
+
+  body{
+      font-family:'Roboto', sans-serif ;
+      font-weight: bold;
+      
+      }
+
+
+      @media screen and (min-width: 0px){
+          img{
+              display: none;
+          }
+
+          a.button{
+              background-color: #20a8b4;
+              color: #fff;
+              border-radius: 10px;
+              padding: 12px 0px;
+              display: inline-block;
+              text-align: center;
+              width: 100%;
+          }
+
+          ul li {
+              padding: 10px 0px;
+          }
+
+          .main-container {
+              padding: 12px;
+          }
+
+
+      }
+
+      @media screen and (min-width: 768px){
+          img{
+              display: flex;
+              max-width: 500px;
+              margin:50px;
+          } 
+
+          .main-container {
+              display:flex;
+              justify-content: space-between;
+              padding:10px;
+              align-items:center;
+          }
+
+          ul li {
+            padding: 10px;
+        }
+
+          .header, h1, ul {
+              display: flex;
+              justify-content: space-between;
+          }
+
+          .header-right{
+              display: flex;
+              align-items:center;
+              justify-content: flex-end;
+          }
+
+          a.button{
+              background-color: #20a8b4;
+              color: #fff;
+              border-radius: 10px;
+              padding: 12px;
+              text-align: center;
+              width: auto;
+          }    
+          li {
+              align-self: center;
+          }
+          
+      }
+      
+      
